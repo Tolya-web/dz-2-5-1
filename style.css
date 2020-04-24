@@ -1,0 +1,27 @@
+.button.start {
+    padding: 19px 50px 19px 50px;
+    background-color: rgb(51, 28, 134);
+    color: #fff;
+    margin-top: 27px;
+    text-align: center;
+    border: 5px solid yellow;
+    border-radius: 40px;
+}
+.button.reset{
+    padding: 19px 50px 19px 50px;
+    background-color: rgb(51, 28, 134);
+    color: #fff;
+    margin-top: 27px;
+    text-align: center;
+    border: 5px solid yellow;
+    border-radius: 40px;
+}
+.button.lap{
+    padding: 19px 50px 19px 50px;
+    background-color: rgb(51, 28, 134);
+    color: #fff;
+    margin-top: 27px;
+    text-align: center;
+    border: 5px solid yellow;
+    border-radius: 40px;
+}
