@@ -1,5 +1,5 @@
-   var x;
-   var startstop=0;
+     var x;
+     var startstop=0;
 
    function startStop(){ 
         startstop=startstop+1;
