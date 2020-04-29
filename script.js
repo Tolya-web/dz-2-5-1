@@ -82,4 +82,18 @@
          document.getElementById("min").innerHTML = "00";
          document.getElementById("hour").innerHTML = "00";
     }
+
+    function lap(){
+        var element = document.getElementById('lapContainer');
+        var elementli = document.createElement('li');
+        var hour = document.getElementById("hour").innerText;
+        var min = document.getElementById("min").innerText;
+        var sec = document.getElementById("sec").innerText;
+        var milisec = document.getElementById("milisec").innerText;
+        var node = document.createTextNode(hour+":"+min+":"+sec+":"+milisec);
+        elementli.appendChild(node);
+        element.appendChild(elementli);
+       
+
+    }
   
